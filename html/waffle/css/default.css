@@ -456,3 +456,79 @@ box-sizing:content-box;
 /* Mobile화면으로 */
 #device_change {display:block;margin:0.3em;padding:0.5em 0;border:1px solid #eee;border-radius:2em;background:#fff;color:#000;font-size:2em;text-decoration:none;text-align:center}
 
+/* Customazing */
+/* 필요없는거 지울때 display:none하면 JS가 걸린게 디버그 터질 수 있으니 
+  화면상에서만 안보이게 하는 기법. */
+#ft .notice,
+#ft #visit{
+  /* display: none; */
+  position: absolute;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#ft_copy {
+  position: absolute;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+#ft_company {
+  /* display: none; */
+  margin-top: 1rem;
+  text-align: center;
+}
+#ft_wr {
+  /* display: flex; */
+  /* justify-content: center; */
+  width: unset;
+  max-width: unset;
+}
+#ft_wr .ft_cnt {
+  width: unset;
+  float: none;
+  /* display: flex; */
+}
+#ft_company h2 {  
+  margin-bottom: unset;
+  display: none;
+}
+
+#ft_link {
+  /* display: flex;   */
+  text-align: center;
+}
+#ft_link a {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#ft_link a:last-child {
+  display: none;
+}
+
+
+#ft_link :nth-child(2) {
+  color: yellow;
+}
+
+/* 태그 안건들고 br태그 죽여서 줄바꿈하기 */
+#ft #ft_company .ft_info br{
+  display: none;
+}
+#ft #ft_company .ft_info br:nth-of-type(3){
+  display: block!important;
+}
+/* br {
+  display: block;
+  height: 30px;
+  background-color: orange;
+} */

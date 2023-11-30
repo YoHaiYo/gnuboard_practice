@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 내용관리 */
+#ctt {margin:0;padding:0px;background:#fff}
+.ctt_admin {text-align: right;top: 100px;position: absolute;right: 0; display: inline-block;border: 1px solid #ccc;background: #fff;padding: 0 13px;font-weight: 500; text-decoration: none; vertical-align: middle;}
+.ctt_admin a { font-size:12px; color:#333}
+#ctt header h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#ctt_con {padding:0;line-height:1.6em}
+#ctt_con img{max-width:100%;height:auto}
+.ctt_img {text-align:center}
+
+.memberWrap {max-width:1240px;margin:0 auto;text-align:left;padding:150px 10px 50px 10px;color:#666; letter-spacing:-0.8px;line-height:24px;word-break:keep-all}
+.memberWrap h3{font-size:18px;font-weight:500;color:#333;margin-bottom:10px;margin-top:50px; font-weight:bold;}
+.memberWrap h3:first-child{margin-top:0}
+.memberWrap p{margin-top:15px; line-height:1.6;word-break:keep-all; font-size:15px}
+.memberWrap .law{margin-top:15px;padding:20px;border:solid 1px #ebebeb;background:#fafafa; font-size:14px}
+.memberWrap .law ul li{line-height:22px;margin-top:3px; padding:0; line-height:1.6;}
+.memberWrap .law ul li:first-child{margin-top:0}
+
+

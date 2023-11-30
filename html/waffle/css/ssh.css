@@ -1,0 +1,16 @@
+/* Customazing */
+/* 필요없는거 지울때 display:none하면 JS가 걸린게 디버그 터질 수 있으니 
+  화면상에서만 안보이게 하는 기법. */
+  #ft .notice,
+  #ft #visit{
+    /* display: none; */
+    position: absolute;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  
