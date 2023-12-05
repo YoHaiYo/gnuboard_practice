@@ -18,6 +18,7 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
 <div class="swiper <?php echo $bo_table; ?> " >
    
     <div class="swiper-wrapper">
+        <!-- for 구문 안쪽에 swiper-slide 나오게. -->
     <?php
     for ($i=0; $i<$list_count; $i++) {
     $thumb = get_list_thumbnail($bo_table, $list[$i]['wr_id'], $thumb_width, $thumb_height, false, true);

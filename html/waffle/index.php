@@ -16,7 +16,8 @@ if (G5_IS_MOBILE) {
 
 include_once(G5_PATH.'/head.php');
 ?>
-
+<!-- 컨텐츠 관리자가 관리하기 -->
+<?php echo latest('pic_block', 'adm_main_banner', 3, 100) ?>
 
 
 <h2 class="sound_only">최신글</h2>
