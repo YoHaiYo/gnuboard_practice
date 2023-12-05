@@ -42,6 +42,12 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
             echo "</a>";
 
             ?>
+            <div>
+                 <?php echo $list[$i]['wr_datetime'] ?><br> 
+                 <?php echo $list[$i]['wr_id'] ?><br> 
+                 <?php echo $list[$i]['wr_subject'] ?><br> 
+                 <?php echo $list[$i]['wr_1'] ?><br> 
+            </div>
 
            
         </div>
