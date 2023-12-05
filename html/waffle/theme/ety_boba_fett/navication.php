@@ -41,10 +41,12 @@
 </div>
 
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top">
+<nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top" id="ssh--gnb">
   <div class="container">
-	<!-- <a class="navbar-brand" href="<?php echo G5_URL?>"><img src="<?php echo G5_THEME_URL?>/img/logo.png" class="logo"></a> -->
-	<a class="navbar-brand" href="<?php echo G5_URL?>"><img src="http://www.jawsfood.co.kr/images/common/logo1.png" class="logo"></a>
+	<a class="navbar-brand" href="<?php echo G5_URL?>">
+		<!-- <img src="http://www.jawsfood.co.kr/images/common/logo1.png" class="logo"> -->
+		<span class="sr-only">죠스떡볶이</span>
+</a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>

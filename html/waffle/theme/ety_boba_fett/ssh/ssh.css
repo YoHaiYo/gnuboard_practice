@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/* 공통 */
 body {
   font-family: "KCCMurukmuruk" !important;
   /* background-color: red; */
@@ -19,7 +20,9 @@ body {
 a {
   font-family: "KCCMurukmuruk" !important;
 }
-
+.fixed-top {
+  top: 0 !important;
+}
 .ks4, .f20, .material-icons-outlined, .ks5, .en1 {
   font-family: unset !important;
 }
@@ -158,3 +161,33 @@ li[data-target="#carouselExampleIndicators"].active {
   background-color: #000;
   opacity: .5;
 }
+#ssh--gnb .navbar-brand {
+  display: block;
+  max-width: 134px !important;
+  width: 30vw;
+}
+#ssh--gnb .navbar-brand::after {
+  content: "";
+  display: block;
+  height: 0;
+  padding-top: 27%;
+  background-image: url("http://www.jawsfood.co.kr/images/common/logo1.png");
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: 100%;
+}
+.ssh--scroll #ssh--gnb .navbar-brand::after {
+  background-image: url("http://www.jawsfood.co.kr/images/common/logo2.png");
+
+}
+.ssh--scroll #ssh--gnb{
+  background-color: #fff !important;
+}
+.ssh--scroll #ssh--gnb .nav-link {
+  color: #333 !important;
+}
+#ssh--gnb .nav-link:hover {
+  color: #ac162c !important;
+}
+
+/* 네비바 호버시 배경색 변경 */
