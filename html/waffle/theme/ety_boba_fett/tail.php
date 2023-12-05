@@ -18,15 +18,16 @@ if(G5_COMMUNITY_USE === false) {
 </div> 
 <?php } ?>
 
+</div>
 
 	<?php include_once(G5_THEME_PATH.'/footer.php')?>
 
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
 
 
-	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/jquery-1.11.0.min.js"></script>
-	<script>
-	var jQuery = $.noConflict(true);
-	</script>
     <script src="<?php echo G5_THEME_URL?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo G5_THEME_URL?>/assets/parallax/js/parallax.min.js"></script>
 	<script src="<?php echo G5_THEME_URL?>/assets/owlcarousel/js/owl.carousel.min.js"></script>
@@ -35,12 +36,14 @@ if(G5_COMMUNITY_USE === false) {
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/assets/countdown/js/jquery.final-countdown.js"></script>
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/bootstrap-dropdownhover.js"></script>
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/custom.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/ssh/ssh.js"></script>
 
 
 	<script>
-		$(document).ready(function () {
+		
 			//owl
-			jQuery(".owl-carousel").owlCarousel({
+			$(".owl-carousel").owlCarousel({
 				autoplay:true,
 				autoplayTimeout:3000,// 1000 -> 1초
 				autoplayHoverPause:true,
@@ -62,12 +65,12 @@ if(G5_COMMUNITY_USE === false) {
 
 			// countdown
 			'use strict';			
-			jQuery('.countdown').final_countdown({
+			$('.countdown').final_countdown({
 				'start': 1362139200,
 				'end': 1388461320,
 				'now': 1387461319        
 			});
-		});
+	
 	</script>
 
 

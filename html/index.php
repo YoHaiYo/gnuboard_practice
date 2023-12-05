@@ -18,6 +18,31 @@ if ( !defined('SSH') ) {
 } else {
 	echo "드루와";
 }; 
+
+define('_REACT', '어렵다');
+$nodejs = '노드';
+?>
+<br>
+<?php 
+echo _REACT;
+?>
+<br>
+<?php 
+echo $nodejs;
+?>
+
+<br>
+<?php 
+echo G5_CSS_URL;
+?>
+
+<br>
+<?php
+if (!defined('G5_THEME_CSS_URL')) {  
+  echo "테마가 적용안됬습니다 ㅎㅎ;";
+} else {
+  echo G5_THEME_CSS_URL;
+}
 ?>
 </body>
 </html>

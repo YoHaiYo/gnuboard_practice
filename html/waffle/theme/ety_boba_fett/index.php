@@ -55,30 +55,20 @@ http://ety.kr/board/qa
 	<ol class="carousel-indicators">
 	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
-	  <div class="carousel-item active" style="background-image: url('https://via.placeholder.com/2560x550')">
+	  <div class="carousel-item active" style="background-image: url('http://www.jawsfood.co.kr/uploads/banner/20230331113326.jpg')">
 		<div class="carousel-caption-text d-md-block">
-		  <h3 class="ks4">디즈니 보바펫 시즌</h3>
-		  <p class="ks4 f20">2022년도 시즌 방영예정</p>
 		</div>
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('https://via.placeholder.com/2560x550')">
+	  <div class="carousel-item" style="background-image: url('http://www.jawsfood.co.kr/uploads/banner/20230331434151.jpg')">
 		<div class="carousel-caption-text d-md-block">
-		  <h3 class="ks4">디즈니 보바펫 시즌</h3>
-		  <p class="ks4 f20">2022년도 시즌 방영예정</p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('https://via.placeholder.com/2560x550')">
-		<div class="carousel-caption-text d-md-block">
-		  <h3 class="ks4">디즈니 보바펫 시즌</h3>
-		  <p class="ks4 f20">2022년도 시즌 방영예정</p>
-		</div>
-	  </div>
+	 
 
 	</div>
 	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -20,7 +20,10 @@ include_once(G5_PATH.'/head.php');
 
 
 <h2 class="sound_only">최신글</h2>
-<ul>
+<ul> 
+    <li>
+        <?php echo latest("basic", "free", 5, 100); ?>
+    </li>
     <li>
         <?php echo latest("pic_block", "qa", 5, 100); ?>
     </li>

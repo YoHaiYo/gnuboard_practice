@@ -100,16 +100,15 @@ if(!defined('G5_IS_ADMIN'))
 
 
 <!-- google fonts -->
-<link href="//fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
 
 <!-- Bootstrap core CSS -->
-<!-- <link href="<?php echo G5_THEME_URL?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 <!-- fontawesome -->
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 <!-- owl Carousel -->
 <link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.carousel.min.css">
 <link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.theme.default.min.css">
@@ -117,16 +116,30 @@ if(!defined('G5_IS_ADMIN'))
 <!-- countdown -->
 <link href="<?php echo G5_THEME_URL?>/assets/countdown/css/demo.css" rel="stylesheet">
 <!-- bootstrap-social icon -->
-<link href="<?php echo G5_THEME_URL?>/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+
 <link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet">
-<link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
+
 <!-- Custom & ety -->
 <link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
 
+<!-- `SSH -->
+<link href="<?php echo G5_THEME_URL?>/ssh/ssh.css" rel="stylesheet">
+
+
+
 
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
+<!-- <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>> -->
+
+<!-- 상황에 따라 body에 다른 클래스로 페이지 폭 조절 -->
+<body  
+class="
+    <?php echo $bo_table; ?> 
+    <?php echo $co_id; ?>
+    <?php if(defined('_INDEX_')) echo 'mainpage'; else echo 'subpage' ; ?>
+" 
+>
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';

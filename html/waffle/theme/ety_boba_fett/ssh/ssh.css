@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "KCC-Ganpan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KCCMurukmuruk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "KCCMurukmuruk" !important;
+  /* background-color: red; */
+}
+
+a {
+  font-family: "KCCMurukmuruk" !important;
+}
+
+.ks4, .f20, .material-icons-outlined, .ks5, .en1 {
+  font-family: unset !important;
+}
+
+.mainpage .container,
+.store_search .container {
+  width: auto !important;
+  max-width: none !important;
+}
+
+.subpage.gallery .bg-dark {
+  background-color: white !important;
+}
+.subpage.free .bg-dark {
+  background-color: salmon !important;
+}
+
+/* 최상단 검은띠 네비바 */
+.container-fluid.top-line.fixed-header {
+  display: none !important;
+}
+
+/* GNB 두번째 네비바 */
+.navbar.fixed-top.navbar-expand-lg.navbar-white.bg-white.fixed-top {
+  /* position: unset !important; */
+  background-color: transparent !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+/* 드롭다운 삼각형제거 */
+.nav-link.dropdown-toggle::after {
+  display: none !important;
+}
+.mainpage {
+  /* background-image: url('http://www.jawsfood.co.kr/uploads/banner/20230331113326.jpg'); */
+  background-color: orange;
+}
+/* GNB 메뉴 텍스트 색상 */
+a.nav-link.dropdown-toggle {
+  color: #fff;
+}
+/* 슬라이드 제거 */
+.carousel-item{
+  /* display: none !important; */
+}
+.logo {
+  /* width: unset !important; */
+  /* 모바일에서 반응형 최대 화면 1/3 사이즈로 하기 - 산호님 방법 */
+  width: 33vw !important;
+  max-width: 134px !important;
+}
+#carouselExampleIndicators {
+  /* position: absolute; */
+  /* top: 0; */
+  /* z-index: 9999 !important; */
+}
+
+/* 슬라이드 */
+.carousel-indicators {
+  width: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+  margin-right: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: none
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  bottom: 2%;
+  left: 80%;
+}
+.carousel-control-next-icon {
+  position: absolute;
+  bottom: 2%;
+  right: 80%;
+}
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after{
+  color: #000;
+  font-size: 25px;
+  position: absolute;
+  opacity: 1;
+} 
+.carousel-control-prev-icon::after {
+  content: "<";  
+  top: 5px;
+  left: 15px;
+}
+.carousel-control-next-icon::after {
+  content: ">";  
+  top: 5px;
+  right: 15px;
+}
+
+/* 요기가 슬라이드 클릭되는 부분*/
+a.carousel-control-prev,
+a.carousel-control-next {
+  width: 50%;
+  /* background-color: skyblue; */
+   
+}
+
+li[data-target="#carouselExampleIndicators"] {
+  display: inline-block;
+  width: 12px;
+  height: 12px;  
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 1;
+  /* transition: .5s; */
+}
+li[data-target="#carouselExampleIndicators"].active {
+  width: 18px;
+  height: 18px;  
+  background-color: transparent;
+  border: 3px solid #333;
+}
+.carousel-indicators {
+  align-items: center;
+}
+/* 위에 공간 차지하는 CSS 없애기 */
+.ety-main {
+  display: none ;
+}
+
+/* 스크롤 이벤트 */
+.blackmode {
+  background-color: #000;
+  opacity: .5;
+}

@@ -17,7 +17,7 @@
  */
 
 
-@font-face {
+/* @font-face {
      font-family: 'S-CoreDream-2ExtraLight';
      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
      font-weight: normal;
@@ -58,7 +58,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 
-
+ */
 
 
 a { color:#666666; }
@@ -83,7 +83,7 @@ a:hover { color:gray; text-decoration: none; }
     background-color: rgba(255, 255, 255, 0.98);
 }
 
-.ks2{font-family: 'S-CoreDream-2ExtraLight';}
+/* .ks2{font-family: 'S-CoreDream-2ExtraLight';}
 .ks3{font-family: 'S-CoreDream-3Light';}
 .ks4{font-family: 'S-CoreDream-4Regular';}
 .ks5{font-family: 'S-CoreDream-5Medium';}
@@ -109,7 +109,7 @@ a:hover { color:gray; text-decoration: none; }
 .ko_18 { font-family: 'Noto Sans KR', sans-serif;font-size:18px; }
 .ko_19 { font-family: 'Noto Sans KR', sans-serif;font-size:19px; }
 .ko_20 { font-family: 'Noto Sans KR', sans-serif;font-size:20px; }
-
+ */
 .f12{font-size:12px;}
 .f13{font-size:13px;}
 .f14{font-size:14px;}
@@ -157,7 +157,7 @@ h3 {
 }
 
 .subtitle {
-  margin: 0 0 50px; 0;
+  margin: 0 0 50px; 
 }
 .head-line {
   line-height: 0.5;

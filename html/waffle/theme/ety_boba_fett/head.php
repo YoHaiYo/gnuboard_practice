@@ -47,12 +47,6 @@ if(defined('_INDEX_')) {
 <!-------------------------- 네비게이션 -------------------------->
 <?php include_once(G5_THEME_PATH.'/navication.php');?>
 
-<?php if(!defined('_INDEX_')) { ?>	
-<div class="container">
-<?php } ?>
-
-
-
 
 <!-------------------------- 구글 아이콘 -------------------------->
 
@@ -70,6 +64,7 @@ if(defined('_INDEX_')) {
 </style>
 <div class="ety-main"></div>
 
+<div class="container">
 
 
 <!-------------------------- 게시판 상단 배경 수정하는 곳 -------------------------->
