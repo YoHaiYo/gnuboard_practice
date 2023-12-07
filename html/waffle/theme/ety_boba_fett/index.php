@@ -130,65 +130,8 @@ http://ety.kr/board/qa
 		</div><!-- ./col -->
 	</div><!-- /row -->
 
+	<?php echo latest("info_card", "adm_info_card", 8, 100); ?>
 
-	<div class="d-none d-lg-block d-xl-block margin-bottom-20"></div>
-
-	<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-r-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">travel_explore</span>
-						<p class="ks4 f15 text-center">
-							보바펫 소개
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-l-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">movie</span>
-						<p class="ks4 f15 text-center">
-							보바펫 시즌정보 안내
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-r-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">live_tv</span>
-						<p class="ks4 f15 text-center">
-							보바펫 예고편 바로가기
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-l-5">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons-outlined">collections</span>
-						<p class="ks4 f15 text-center">
-							갤러리
-						</p>
-					</div>
-					
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-	</div><!-- /row -->
 
 </div><!-- /container -->
 

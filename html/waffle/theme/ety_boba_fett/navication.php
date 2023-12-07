@@ -42,11 +42,15 @@
 
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top" id="ssh--gnb">
-  <div class="container">
-	<a class="navbar-brand" href="<?php echo G5_URL?>">
+  <div class="container">		
+		<!-- `ssh 최근게시로 링크, 이미지, 글자 다 관리 -->
+		<?php echo latest('pic_list', 'adm_logo', 1, 100) ?>
+
+	<!-- <a class="navbar-brand" href="<?php echo G5_URL?>"> -->
 		<!-- <img src="http://www.jawsfood.co.kr/images/common/logo1.png" class="logo"> -->
-		<span class="sr-only">죠스떡볶이</span>
-</a>
+		<!-- <span class="sr-only">죠스떡볶이</span>
+	</a> -->
+
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>

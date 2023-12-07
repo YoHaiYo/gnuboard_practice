@@ -109,21 +109,21 @@ if(!defined('G5_IS_ADMIN'))
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 <!-- fontawesome -->
 
-<!-- owl Carousel -->
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.theme.default.min.css">
+<!-- SWIPER -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- countdown -->
 <link href="<?php echo G5_THEME_URL?>/assets/countdown/css/demo.css" rel="stylesheet">
 <!-- bootstrap-social icon -->
 
-<link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet">
+<!-- <link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet"> -->
 
-<!-- Custom & ety -->
+
+<!-- `SSH -->
 <link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
 
-<!-- `SSH -->
 <link href="<?php echo G5_THEME_URL?>/ssh/ssh.css" rel="stylesheet">
 
 
@@ -138,6 +138,8 @@ class="
     <?php echo $bo_table; ?> 
     <?php echo $co_id; ?>
     <?php if(defined('_INDEX_')) echo 'mainpage'; else echo 'subpage' ; ?>
+    <?php echo $list[$i]['wr_id'] ; ?>    
+    <?php echo $list[$i]['subject'] ; ?>    
 " 
 >
 <?php

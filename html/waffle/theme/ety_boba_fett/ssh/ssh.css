@@ -64,7 +64,10 @@ a {
 }
 .mainpage {
   /* background-image: url('http://www.jawsfood.co.kr/uploads/banner/20230331113326.jpg'); */
-  background-color: orange;
+  background-color: white;
+}
+.subpage {
+  background-color: rgb(255, 210, 128) !important;
 }
 /* GNB 메뉴 텍스트 색상 */
 a.nav-link.dropdown-toggle {
@@ -202,7 +205,22 @@ li[data-target="#carouselExampleIndicators"].active {
 }
 #ssh--gnb {
   /* border: 1px solid #333; */
+  
 }
+#ssh--gnb::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  height: 0px;
+  transition: .5s;
+}
+#ssh--gnb:hover::before {
+  height: 100px !important;
+}
+
 #ssh--gnb .dropdown-menu {
   display: block !important;
   height: 0;
@@ -214,5 +232,18 @@ li[data-target="#carouselExampleIndicators"].active {
 }
 #ssh--gnb:hover .dropdown-menu {
   /* display: block !important; */
-  height: 200px !important;
+  height: 100px !important;
+}
+
+/* 로그인 */
+legend {
+  z-index: -1 !important;
+}
+/*  */
+.dropdown-menu-right {
+  right: unset;
+  left: unset;
+}
+.dropdown-menu {
+  min-width: 90px;
 }

@@ -45,8 +45,15 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
             <div>
                  <?php echo $list[$i]['wr_datetime'] ?><br> 
                  <?php echo $list[$i]['wr_id'] ?><br> 
-                 <?php echo $list[$i]['wr_subject'] ?><br> 
+                 <?php echo $list[$i]['wr_subject'] ?><br>
+                 <?php echo $list[$i]['wr_comment'] ?><br>  
                  <?php echo $list[$i]['wr_1'] ?><br> 
+                 <?php echo $thumb['ori'] ?><br>    
+                 <?php echo $thumb['src'] ?><br>  
+                 <?php echo $list[$i]['wr_link1'] ?><br>     
+                 <?php echo $list[$i]['wr_link2'] ?><br>                     
+                 <?php echo $list[$i]['wr_name'] ?><br>                     
+                 <?php echo $list[$i]['wr_hit'] ?><br>                     
             </div>
 
            

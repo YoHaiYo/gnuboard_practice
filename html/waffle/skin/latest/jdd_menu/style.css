@@ -64,7 +64,7 @@
   background-color: #9b0a1e;
 }
 #jdd-menu .gallery_li:nth-child(1) img{
-  width: 65vw;
+  width: 45vw;
   background-color: #9b0a1e;
 }
 #jdd-menu .gallery_li:nth-child(1) .jdd_wr_content{
@@ -78,7 +78,7 @@
 }
 #jdd-menu .gallery_li:nth-child(2) img{
   width: 35vw;
-  margin-top: 200px;
+  margin-top: 90px;
   
 
 }
@@ -88,5 +88,5 @@
 }
 #jdd-menu .gallery_li:nth-child(3) img{
   width: 35vw;
-  margin-top: 200px;
+  margin-top: 90px;
 }
